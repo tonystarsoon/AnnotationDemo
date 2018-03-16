@@ -1,6 +1,8 @@
-package com.example.shuoyexiqi.annotationdemo;
+package com.example.shuoyexiqi.demo;
 
 import android.util.Log;
+
+import com.example.shuoyexiqi.demo.annotation.UseCase;
 
 import java.lang.reflect.Method;
 

@@ -1,4 +1,4 @@
-package com.example.shuoyexiqi.annotationdemo;
+package com.example.shuoyexiqi.demo.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

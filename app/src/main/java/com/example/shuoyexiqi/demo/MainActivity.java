@@ -1,4 +1,4 @@
-package com.example.shuoyexiqi.annotationdemo;
+package com.example.shuoyexiqi.demo;
 
 import android.app.Activity;
 import android.os.Bundle;

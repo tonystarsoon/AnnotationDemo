@@ -1,4 +1,6 @@
-package com.example.shuoyexiqi.annotationdemo;
+package com.example.shuoyexiqi.demo;
+
+import com.example.shuoyexiqi.demo.annotation.UseCase;
 
 /**
  * Created by shuoyexiqi on 2018/3/16.
