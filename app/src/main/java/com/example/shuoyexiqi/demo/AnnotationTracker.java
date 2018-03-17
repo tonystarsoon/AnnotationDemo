@@ -34,6 +34,11 @@ public class AnnotationTracker {
         }
     }
 
+    /**
+     * 通过反射获取注解信息来创建数据库表
+     *
+     * @param args
+     */
     public static void trackTable(String[] args) {
         for (String clsName : args) {
             try {
@@ -89,6 +94,12 @@ public class AnnotationTracker {
         }
     }
 
+    /**
+     * 判断是否有约束条件
+     *
+     * @param con
+     * @return
+     */
     public static String getConstraints(Constraints con) {
         String constrains = "";
         if (!con.allowNull()) {

@@ -7,6 +7,9 @@ import com.example.shuoyexiqi.demo.bean.Member;
 
 
 public class MainActivity extends Activity {
+    @Deprecated
+    private int a = 10;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
