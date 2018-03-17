@@ -3,6 +3,8 @@ package com.example.shuoyexiqi.demo;
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.example.shuoyexiqi.demo.bean.Member;
+
 
 public class MainActivity extends Activity {
     @Override
@@ -11,7 +13,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         Test test = new Test();
 
-        AnnotationTracker.track(test.getClass());
+//        AnnotationTracker.track(test.getClass());
+        AnnotationTracker.trackTable(new String[]{Member.class.getName()});
     }
 }
 
